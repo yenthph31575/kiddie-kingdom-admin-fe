@@ -10,7 +10,6 @@ export const getAdmins = async (params: Partial<IAdminQuery>): Promise<IAdminRes
   });
   return data?.data;
 };
-
 export const getAdminById = async (id: string): Promise<IAdmin> => {
   const { data } = await client({
     url: `/api/admin/admins/${id}`,
