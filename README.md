@@ -1,43 +1,52 @@
-## Intro <a name="intro"></a>
+Giới thiệu <a name="intro"></a>
 
-This boilerplate is made for creating NextJS application easier and faster.
+Boilerplate này được tạo ra để tạo ứng dụng NextJS dễ dàng và nhanh chóng hơn.
 
-## Getting started: <a name="getting-started"></a>
+Bắt đầu: <a name="getting-started"></a>
 
-1. When you're using Windows run this:
+Nếu bạn đang sử dụng Windows, chạy các lệnh sau:
 
-   - `git config --global core.eol lf`
-   - `git config --global core.autocrlf input`
+git config --global core.eol lf
 
-   #### This will change eol(End of line) to the same as on Linux/Mac, without this, you will have conflicts with your teammates with those systems and our bash script won't work
+git config --global core.autocrlf input
 
-2. Clone this repository.
-3. Install pnpm globally: `npm install -g pnpm` (check your node version >= 18)
-4. Run `pnpm install`
+Lệnh này sẽ chuyển đổi EOL (End of Line) giống như trên Linux/Mac. Nếu không làm điều này, bạn có thể gặp conflict với các đồng đội dùng hệ điều hành khác và các bash script của dự án sẽ không hoạt động đúng.
 
----
+Clone repository này.
 
-### Run the development server
+Cài đặt pnpm toàn cục:
 
-```bash
+npm install -g pnpm
+
+
+(Đảm bảo Node version >= 18)
+
+Cài đặt các package:
+
+pnpm install
+
+Chạy server phát triển
 pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Mở http://localhost:3000
+ trên trình duyệt để xem kết quả.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Bạn có thể bắt đầu chỉnh sửa trang bằng cách sửa file app/page.tsx. Trang sẽ tự động cập nhật khi bạn chỉnh sửa.
 
-## Learn More
+Dự án này sử dụng next/font
+ để tối ưu và tải font tự động với font Geist
+, một font mới của Vercel.
 
-To learn more about Next.js, take a look at the following resources:
+Tìm hiểu thêm
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Để tìm hiểu thêm về Next.js, tham khảo các tài nguyên sau:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Tài liệu Next.js
+ - tìm hiểu các tính năng và API của Next.js.
 
----
+Học Next.js
+ - tutorial tương tác về Next.js.
 
-Made by [HoangDevNull](https://github.com/hoangdevnull)
+Bạn cũng có thể xem repository Next.js trên GitHub
+ - phản hồi và đóng góp đều được hoan nghênh!
