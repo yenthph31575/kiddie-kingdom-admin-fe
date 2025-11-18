@@ -1,31 +1,30 @@
-Giới thiệu <a name="intro"></a>
+## Giới thiệu <a name="intro"></a>
 
 Boilerplate này được tạo ra để tạo ứng dụng NextJS dễ dàng và nhanh chóng hơn.
 
-Bắt đầu: <a name="getting-started"></a>
+## Bắt đầu: <a name="getting-started"></a>
 
-Nếu bạn đang sử dụng Windows, chạy các lệnh sau:
+1. Nếu bạn đang sử dụng Windows, chạy các lệnh sau:
 
 git config --global core.eol lf
 
 git config --global core.autocrlf input
 
-Lệnh này sẽ chuyển đổi EOL (End of Line) giống như trên Linux/Mac. Nếu không làm điều này, bạn có thể gặp conflict với các đồng đội dùng hệ điều hành khác và các bash script của dự án sẽ không hoạt động đúng.
+#### Lệnh này sẽ chuyển đổi EOL (End of Line) giống như trên Linux/Mac. Nếu không làm điều này, bạn có thể gặp conflict với các đồng đội dùng hệ điều hành khác và các bash script của dự án sẽ không hoạt động đúng.
 
-Clone repository này.
+2. Clone repository này.
 
-Cài đặt pnpm toàn cục:
+3. Cài đặt pnpm toàn cục:
 
 npm install -g pnpm
 
-
 (Đảm bảo Node version >= 18)
 
-Cài đặt các package:
+4. Cài đặt các package:
 
 pnpm install
 
-Chạy server phát triển
+### Chạy server phát triển
 pnpm dev
 
 
